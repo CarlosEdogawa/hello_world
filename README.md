@@ -2,14 +2,6 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class J0301A
-{
-    public static void main(String[] args)
-    {
-        new cMario();
-    }
-}
-
 class cMario extends JFrame
 {
     public cMario()
@@ -32,6 +24,5 @@ class cMario extends JFrame
         this.setLocationRelativeTo(null);
 		this.setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-
     }
 }
