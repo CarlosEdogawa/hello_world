@@ -9,6 +9,7 @@ public class J0301A
         new cMario();
     }
 }
+
 class cMario extends JFrame
 {
     public cMario()
